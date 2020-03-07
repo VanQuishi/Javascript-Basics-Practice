@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Practice</title>
+    <meta charset="UTF-8"/>
+</head>
+<body>
+    <script>
+        let add7 = (x) => x+7;   //take a number and return the sume of it with 7
+
+        function multiply (a,b)
+        {
+            return a*b;
+        }
+
+        function capitalize (s)  //return the string with only the first letter capitalized
+        {
+            let lowerCaseText = s.toLowerCase();
+            return (lowerCaseText.charAt(0)).toUpperCase() + lowerCaseText.substring(1);
+            
+        }
+
+        function lastLetter(s)  //return the last char
+        {
+            return s.charAt(s.length-1);
+        }
+    </script>
+</body>
+</html>
